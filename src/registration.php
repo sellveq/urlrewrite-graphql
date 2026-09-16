@@ -1,10 +1,17 @@
 <?php
+
 /**
- * @author    Vladimirs Mihnovics <info@scandiweb.com>
- * @copyright Copyright (c) 2018 Scandiweb, Ltd (https://scandiweb.com)
+ * @category    ScandiPWA
+ * @package     ScandiPWA_UrlrewriteGraphQl
+ * @copyright   Copyright © 2018 Scandiweb, Ltd (https://scandiweb.com)
+ * @copyright   Modifications © Selveq. All rights reserved.
+ * @license     OSL-3.0 (Open Software License ("OSL") v. 3.0)
+ * See LICENSE for license details.
  */
 
-use \Magento\Framework\Component\ComponentRegistrar;
+declare(strict_types=1);
+
+use Magento\Framework\Component\ComponentRegistrar;
 
 ComponentRegistrar::register(
     ComponentRegistrar::MODULE,

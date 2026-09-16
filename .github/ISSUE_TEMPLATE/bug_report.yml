@@ -1,0 +1,26 @@
+name: Bug report
+description: Report a defect in this module
+title: '[Bug] '
+labels: ['bug']
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What went wrong, what you expected instead, and any error output.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to reproduce
+      description: Steps to trigger it, with the GraphQL query or mutation if one is involved.
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      placeholder: 'module 2.0.0, Magento 2.4.9, PHP 8.3'
+    validations:
+      required: true
